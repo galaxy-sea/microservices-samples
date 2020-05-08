@@ -46,4 +46,19 @@
         </plugins>
     </build>
 
+    <!-- 设定仓库 -->
+    <repositories>
+        <!-- 阿里云镜像 -->
+        <repository>
+            <id>aliyun-repos</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
 </project>
