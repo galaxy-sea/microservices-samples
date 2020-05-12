@@ -1,4 +1,4 @@
-package com.galaxy.discovery.nacos;
+package com.galaxy.rpc.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author galaxy
  */
 @SpringBootApplication
-public class DiscoveryNacosApplication {
+public class RpcServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DiscoveryNacosApplication.class, args);
+        SpringApplication.run(RpcServiceApplication.class, args);
     }
 
 }

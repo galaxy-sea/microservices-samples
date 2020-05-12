@@ -8,13 +8,16 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>discovery-nacos</artifactId>
+    <artifactId>rpc-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>discovery-nacos</name>
+    <name>rpc-provider</name>
     <description>Demo project for Spring Boot</description>
 
-    <dependencies>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
+    <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -25,5 +28,14 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

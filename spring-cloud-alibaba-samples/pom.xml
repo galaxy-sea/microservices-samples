@@ -23,6 +23,11 @@
 
     <modules>
         <module>discovery/discovery-nacos</module>
+
+        <module>rpc/rpc-provider</module>
+        <module>rpc/rpc-rest-template</module>
+        <module>rpc/rpc-web-client</module>
+        <module>rpc/rpc-feign</module>
     </modules>
 
 
